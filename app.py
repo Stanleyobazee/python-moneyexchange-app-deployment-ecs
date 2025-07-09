@@ -102,6 +102,12 @@ def index():
                                      usd_to_ngn=result['usd_to_ngn'],
                                      last_updated=result['last_updated'],
                                      current_time=result['current_time'])
+import logging
+logging.basicConfig(level=logging.INFO)
+import logging
+logging.basicConfig(level=logging.INFO)
+import logging
+logging.basicConfig(level=logging.INFO)
 
 def main():
     """Command line display of exchange rate"""
